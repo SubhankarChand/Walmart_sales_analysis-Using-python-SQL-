@@ -24,7 +24,7 @@ WALMART_DATA_ANALYSIS/
 ├── Walmart.csv                 # Working copy of raw data
 └── walmart_clean_data.csv      # Cleaned dataset ready for SQL import
 ```
-🚀 Methodology
+## 🚀 Methodology
 1. Data Extraction & Environment Setup
 Set up a virtual environment (my_env) in VS Code.
 
@@ -49,7 +49,7 @@ Automated the table creation and data insertion process by appending the Pandas 
 4. Exploratory Data Analysis (MySQL)
 Conducted advanced SQL queries (utilizing Window Functions, CTEs/Subqueries, and Date/Time extractions) to solve key business problems.
 
-📊 Business Problems Solved
+## 📊 Business Problems Solved
 Below are the core business questions answered through SQL queries in this project:
 
 Transaction Volume by Payment: What are the different payment methods, and what is the total number of transactions and quantities sold for each?
@@ -68,18 +68,19 @@ Preferred Payment by Location: What is the most common and preferred payment met
 
 Shift-Based Sales Analysis: How are sales distributed across different times of the day (Morning, Afternoon, Evening), and what is the invoice count per shift?
 
-⚙️ How to Run the Project
+## ⚙️ How to Run the Project
 Clone the repository and open it in VS Code.
 
 Activate the virtual environment:
 
-Bash
+```Bash
 source my_env/bin/activate  # On macOS/Linux
 my_env\Scripts\activate     # On Windows
 Install dependencies:
-
-Bash
+```
+```Bash
 pip install -r requirements.txt
+```
 Run the Jupyter Notebook (project.ipynb) to execute the Python data pipeline and push the data to your local MySQL server.
 
 Execute the SQL queries provided in the project files within MySQL Workbench to view the analysis output.

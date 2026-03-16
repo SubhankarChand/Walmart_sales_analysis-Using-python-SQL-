@@ -23,6 +23,7 @@ WALMART_DATA_ANALYSIS/
 ├── walmart-10k-sales-dat...    # Raw dataset (downloaded via API)
 ├── Walmart.csv                 # Working copy of raw data
 └── walmart_clean_data.csv      # Cleaned dataset ready for SQL import
+```
 🚀 Methodology
 1. Data Extraction & Environment Setup
 Set up a virtual environment (my_env) in VS Code.

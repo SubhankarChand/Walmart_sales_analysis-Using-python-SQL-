@@ -25,22 +25,22 @@ WALMART_DATA_ANALYSIS/
 └── walmart_clean_data.csv      # Cleaned dataset ready for SQL import
 ```
 ## 🚀 Methodology
-* ** 1. Data Extraction & Environment Setup**
+** 1. Data Extraction & Environment Setup**
 - Set up a virtual environment (my_env) in VS Code.
 - Configured the Kaggle API (kaggle.json) in the home directory.
 - Downloaded the raw Walmart sales dataset (10,000 rows, 11 columns) directly into the project workspace.
 
-* ** 2. Data Cleaning & Transformation (Python/Pandas) **
+ ** 2. Data Cleaning & Transformation (Python/Pandas) **
 - Loaded the data into a Pandas DataFrame.
 - Engineered a new feature: total_price (calculated as unit_price * quantity).
 - Standardized all column names to lowercase for seamless database integration.
 - Exported the cleaned data to walmart_clean_data.csv.
 
-* ** 3. Database Integration (SQLAlchemy) **
+ ** 3. Database Integration (SQLAlchemy) **
 - Established a connection to a local MySQL server using Python's sqlalchemy library.
 - Automated the table creation and data insertion process by appending the Pandas DataFrame directly into the walmart database.
 
-* ** 4. Exploratory Data Analysis (MySQL) **
+ ** 4. Exploratory Data Analysis (MySQL) **
 - Conducted advanced SQL queries (utilizing Window Functions, CTEs/Subqueries, and Date/Time extractions) to solve key business problems.
 
 ## 📊 Business Problems Solved 
